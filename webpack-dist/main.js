@@ -1,5 +1,155 @@
 /******/ (() => { // webpackBootstrap
-/******/ 	var __webpack_modules__ = ({});
+/******/ 	"use strict";
+/******/ 	var __webpack_modules__ = ({
+
+/***/ "./src/App.vue.js?vue&type=script&setup=true&lang=js!=!./node_modules/.pnpm/babel-loader@9.1.3_ea65304798caa04da0ef31096c01dd6a/node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use[0]!./node_modules/.pnpm/vue-loader@17.4.2_vue@3.4.3+webpack@5.89.0/node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/App.vue?vue&type=script&setup=true&lang=js":
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./src/App.vue.js?vue&type=script&setup=true&lang=js!=!./node_modules/.pnpm/babel-loader@9.1.3_ea65304798caa04da0ef31096c01dd6a/node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use[0]!./node_modules/.pnpm/vue-loader@17.4.2_vue@3.4.3+webpack@5.89.0/node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/App.vue?vue&type=script&setup=true&lang=js ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var vant__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vant */ "./node_modules/.pnpm/vant@4.8.1_vue@3.4.3/node_modules/vant/es/toast/function-call.mjs");
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/.pnpm/vue@3.4.3/node_modules/vue/dist/vue.runtime.esm-bundler.js");
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  __name: 'App',
+  setup(__props, {
+    expose: __expose
+  }) {
+    __expose();
+    (0,vue__WEBPACK_IMPORTED_MODULE_0__.onMounted)(() => {
+      (0,vant__WEBPACK_IMPORTED_MODULE_1__.showToast)('我是Toast');
+    });
+    const __returned__ = {
+      get showToast() {
+        return vant__WEBPACK_IMPORTED_MODULE_1__.showToast;
+      },
+      onMounted: vue__WEBPACK_IMPORTED_MODULE_0__.onMounted,
+      ref: vue__WEBPACK_IMPORTED_MODULE_0__.ref
+    };
+    Object.defineProperty(__returned__, '__isScriptSetup', {
+      enumerable: false,
+      value: true
+    });
+    return __returned__;
+  }
+});
+
+/***/ }),
+
+/***/ "./src/App.vue.js?vue&type=template&id=7ba5bd90&scoped=true!=!./node_modules/.pnpm/babel-loader@9.1.3_ea65304798caa04da0ef31096c01dd6a/node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use[0]!./node_modules/.pnpm/vue-loader@17.4.2_vue@3.4.3+webpack@5.89.0/node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/.pnpm/vue-loader@17.4.2_vue@3.4.3+webpack@5.89.0/node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/App.vue?vue&type=template&id=7ba5bd90&scoped=true":
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./src/App.vue.js?vue&type=template&id=7ba5bd90&scoped=true!=!./node_modules/.pnpm/babel-loader@9.1.3_ea65304798caa04da0ef31096c01dd6a/node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use[0]!./node_modules/.pnpm/vue-loader@17.4.2_vue@3.4.3+webpack@5.89.0/node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/.pnpm/vue-loader@17.4.2_vue@3.4.3+webpack@5.89.0/node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/App.vue?vue&type=template&id=7ba5bd90&scoped=true ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   render: () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/.pnpm/vue@3.4.3/node_modules/vue/dist/vue.runtime.esm-bundler.js");
+
+const _withScopeId = n => ((0,vue__WEBPACK_IMPORTED_MODULE_0__.pushScopeId)("data-v-7ba5bd90"), n = n(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)(), n);
+const _hoisted_1 = {
+  class: "content"
+};
+const _hoisted_2 = /*#__PURE__*/_withScopeId(() => /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", null, "Rsbuild with Vue", -1 /* HOISTED */));
+const _hoisted_3 = /*#__PURE__*/_withScopeId(() => /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Start building amazing things with Rsbuild.", -1 /* HOISTED */));
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  const _component_van_button = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("van-button");
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [_hoisted_2, _hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_van_button, null, {
+    default: (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(() => [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("我是按钮")]),
+    _: 1 /* STABLE */
+  })]);
+}
+
+/***/ }),
+
+/***/ "./src/main.js":
+/*!*********************!*\
+  !*** ./src/main.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ "./src/style.css");
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue */ "./node_modules/.pnpm/vue@3.4.3/node_modules/vue/dist/vue.runtime.esm-bundler.js");
+/* harmony import */ var _App_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./App.vue */ "./src/App.vue");
+/* harmony import */ var vant__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! vant */ "./node_modules/.pnpm/vant@4.8.1_vue@3.4.3/node_modules/vant/es/button/index.mjs");
+
+
+
+
+(0,vue__WEBPACK_IMPORTED_MODULE_1__.createApp)(_App_vue__WEBPACK_IMPORTED_MODULE_2__["default"]).use(manticore).use(vant__WEBPACK_IMPORTED_MODULE_3__.Button).mount('#root');
+
+/***/ }),
+
+/***/ "./src/App.vue":
+/*!*********************!*\
+  !*** ./src/App.vue ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _App_vue_js_vue_type_template_id_7ba5bd90_scoped_true_node_modules_pnpm_vue_loader_17_4_2_vue_3_4_3_webpack_5_89_0_node_modules_vue_loader_dist_index_js_ruleSet_0_App_vue_vue_type_template_id_7ba5bd90_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./App.vue.js?vue&type=template&id=7ba5bd90&scoped=true!=!../node_modules/.pnpm/vue-loader@17.4.2_vue@3.4.3+webpack@5.89.0/node_modules/vue-loader/dist/index.js??ruleSet[0]!./App.vue?vue&type=template&id=7ba5bd90&scoped=true */ "./src/App.vue.js?vue&type=template&id=7ba5bd90&scoped=true!=!./node_modules/.pnpm/vue-loader@17.4.2_vue@3.4.3+webpack@5.89.0/node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/App.vue?vue&type=template&id=7ba5bd90&scoped=true");
+/* harmony import */ var _App_vue_js_vue_type_script_setup_true_lang_js_node_modules_pnpm_vue_loader_17_4_2_vue_3_4_3_webpack_5_89_0_node_modules_vue_loader_dist_index_js_ruleSet_0_App_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./App.vue.js?vue&type=script&setup=true&lang=js!=!../node_modules/.pnpm/vue-loader@17.4.2_vue@3.4.3+webpack@5.89.0/node_modules/vue-loader/dist/index.js??ruleSet[0]!./App.vue?vue&type=script&setup=true&lang=js */ "./src/App.vue.js?vue&type=script&setup=true&lang=js!=!./node_modules/.pnpm/vue-loader@17.4.2_vue@3.4.3+webpack@5.89.0/node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/App.vue?vue&type=script&setup=true&lang=js");
+/* harmony import */ var _App_vue_css_vue_type_style_index_0_id_7ba5bd90_scoped_true_lang_css_node_modules_pnpm_vue_loader_17_4_2_vue_3_4_3_webpack_5_89_0_node_modules_vue_loader_dist_index_js_ruleSet_0_App_vue_vue_type_style_index_0_id_7ba5bd90_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./App.vue.css?vue&type=style&index=0&id=7ba5bd90&scoped=true&lang=css!=!../node_modules/.pnpm/vue-loader@17.4.2_vue@3.4.3+webpack@5.89.0/node_modules/vue-loader/dist/index.js??ruleSet[0]!./App.vue?vue&type=style&index=0&id=7ba5bd90&scoped=true&lang=css */ "./src/App.vue.css?vue&type=style&index=0&id=7ba5bd90&scoped=true&lang=css!=!./node_modules/.pnpm/vue-loader@17.4.2_vue@3.4.3+webpack@5.89.0/node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/App.vue?vue&type=style&index=0&id=7ba5bd90&scoped=true&lang=css");
+/* harmony import */ var _node_modules_pnpm_vue_loader_17_4_2_vue_3_4_3_webpack_5_89_0_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../node_modules/.pnpm/vue-loader@17.4.2_vue@3.4.3+webpack@5.89.0/node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/.pnpm/vue-loader@17.4.2_vue@3.4.3+webpack@5.89.0/node_modules/vue-loader/dist/exportHelper.js");
+
+
+
+
+;
+
+
+const __exports__ = /*#__PURE__*/(0,_node_modules_pnpm_vue_loader_17_4_2_vue_3_4_3_webpack_5_89_0_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_App_vue_js_vue_type_script_setup_true_lang_js_node_modules_pnpm_vue_loader_17_4_2_vue_3_4_3_webpack_5_89_0_node_modules_vue_loader_dist_index_js_ruleSet_0_App_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_App_vue_js_vue_type_template_id_7ba5bd90_scoped_true_node_modules_pnpm_vue_loader_17_4_2_vue_3_4_3_webpack_5_89_0_node_modules_vue_loader_dist_index_js_ruleSet_0_App_vue_vue_type_template_id_7ba5bd90_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render],['__scopeId',"data-v-7ba5bd90"],['__file',"src/App.vue"]])
+/* hot reload */
+if (false) {}
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
+
+/***/ }),
+
+/***/ "./src/App.vue.js?vue&type=script&setup=true&lang=js!=!./node_modules/.pnpm/vue-loader@17.4.2_vue@3.4.3+webpack@5.89.0/node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/App.vue?vue&type=script&setup=true&lang=js":
+/*!********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./src/App.vue.js?vue&type=script&setup=true&lang=js!=!./node_modules/.pnpm/vue-loader@17.4.2_vue@3.4.3+webpack@5.89.0/node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/App.vue?vue&type=script&setup=true&lang=js ***!
+  \********************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _App_vue_js_vue_type_script_setup_true_lang_js_node_modules_pnpm_babel_loader_9_1_3_ea65304798caa04da0ef31096c01dd6a_node_modules_babel_loader_lib_index_js_clonedRuleSet_1_use_0_node_modules_pnpm_vue_loader_17_4_2_vue_3_4_3_webpack_5_89_0_node_modules_vue_loader_dist_index_js_ruleSet_0_App_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */ });
+/* harmony import */ var _App_vue_js_vue_type_script_setup_true_lang_js_node_modules_pnpm_babel_loader_9_1_3_ea65304798caa04da0ef31096c01dd6a_node_modules_babel_loader_lib_index_js_clonedRuleSet_1_use_0_node_modules_pnpm_vue_loader_17_4_2_vue_3_4_3_webpack_5_89_0_node_modules_vue_loader_dist_index_js_ruleSet_0_App_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./App.vue.js?vue&type=script&setup=true&lang=js!=!-!../node_modules/.pnpm/babel-loader@9.1.3_ea65304798caa04da0ef31096c01dd6a/node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use[0]!../node_modules/.pnpm/vue-loader@17.4.2_vue@3.4.3+webpack@5.89.0/node_modules/vue-loader/dist/index.js??ruleSet[0]!./App.vue?vue&type=script&setup=true&lang=js */ "./src/App.vue.js?vue&type=script&setup=true&lang=js!=!./node_modules/.pnpm/babel-loader@9.1.3_ea65304798caa04da0ef31096c01dd6a/node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use[0]!./node_modules/.pnpm/vue-loader@17.4.2_vue@3.4.3+webpack@5.89.0/node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/App.vue?vue&type=script&setup=true&lang=js");
+ 
+
+/***/ }),
+
+/***/ "./src/App.vue.js?vue&type=template&id=7ba5bd90&scoped=true!=!./node_modules/.pnpm/vue-loader@17.4.2_vue@3.4.3+webpack@5.89.0/node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/App.vue?vue&type=template&id=7ba5bd90&scoped=true":
+/*!**********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./src/App.vue.js?vue&type=template&id=7ba5bd90&scoped=true!=!./node_modules/.pnpm/vue-loader@17.4.2_vue@3.4.3+webpack@5.89.0/node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/App.vue?vue&type=template&id=7ba5bd90&scoped=true ***!
+  \**********************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   render: () => (/* reexport safe */ _App_vue_js_vue_type_template_id_7ba5bd90_scoped_true_node_modules_pnpm_babel_loader_9_1_3_ea65304798caa04da0ef31096c01dd6a_node_modules_babel_loader_lib_index_js_clonedRuleSet_1_use_0_node_modules_pnpm_vue_loader_17_4_2_vue_3_4_3_webpack_5_89_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_3_node_modules_pnpm_vue_loader_17_4_2_vue_3_4_3_webpack_5_89_0_node_modules_vue_loader_dist_index_js_ruleSet_0_App_vue_vue_type_template_id_7ba5bd90_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _App_vue_js_vue_type_template_id_7ba5bd90_scoped_true_node_modules_pnpm_babel_loader_9_1_3_ea65304798caa04da0ef31096c01dd6a_node_modules_babel_loader_lib_index_js_clonedRuleSet_1_use_0_node_modules_pnpm_vue_loader_17_4_2_vue_3_4_3_webpack_5_89_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_3_node_modules_pnpm_vue_loader_17_4_2_vue_3_4_3_webpack_5_89_0_node_modules_vue_loader_dist_index_js_ruleSet_0_App_vue_vue_type_template_id_7ba5bd90_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./App.vue.js?vue&type=template&id=7ba5bd90&scoped=true!=!-!../node_modules/.pnpm/babel-loader@9.1.3_ea65304798caa04da0ef31096c01dd6a/node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use[0]!../node_modules/.pnpm/vue-loader@17.4.2_vue@3.4.3+webpack@5.89.0/node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!../node_modules/.pnpm/vue-loader@17.4.2_vue@3.4.3+webpack@5.89.0/node_modules/vue-loader/dist/index.js??ruleSet[0]!./App.vue?vue&type=template&id=7ba5bd90&scoped=true */ "./src/App.vue.js?vue&type=template&id=7ba5bd90&scoped=true!=!./node_modules/.pnpm/babel-loader@9.1.3_ea65304798caa04da0ef31096c01dd6a/node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use[0]!./node_modules/.pnpm/vue-loader@17.4.2_vue@3.4.3+webpack@5.89.0/node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/.pnpm/vue-loader@17.4.2_vue@3.4.3+webpack@5.89.0/node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/App.vue?vue&type=template&id=7ba5bd90&scoped=true");
+
+
+/***/ })
+
+/******/ 	});
 /************************************************************************/
 /******/ 	// The module cache
 /******/ 	var __webpack_module_cache__ = {};
@@ -29,6 +179,38 @@
 /******/ 	__webpack_require__.m = __webpack_modules__;
 /******/ 	
 /************************************************************************/
+/******/ 	/* webpack/runtime/chunk loaded */
+/******/ 	(() => {
+/******/ 		var deferred = [];
+/******/ 		__webpack_require__.O = (result, chunkIds, fn, priority) => {
+/******/ 			if(chunkIds) {
+/******/ 				priority = priority || 0;
+/******/ 				for(var i = deferred.length; i > 0 && deferred[i - 1][2] > priority; i--) deferred[i] = deferred[i - 1];
+/******/ 				deferred[i] = [chunkIds, fn, priority];
+/******/ 				return;
+/******/ 			}
+/******/ 			var notFulfilled = Infinity;
+/******/ 			for (var i = 0; i < deferred.length; i++) {
+/******/ 				var [chunkIds, fn, priority] = deferred[i];
+/******/ 				var fulfilled = true;
+/******/ 				for (var j = 0; j < chunkIds.length; j++) {
+/******/ 					if ((priority & 1 === 0 || notFulfilled >= priority) && Object.keys(__webpack_require__.O).every((key) => (__webpack_require__.O[key](chunkIds[j])))) {
+/******/ 						chunkIds.splice(j--, 1);
+/******/ 					} else {
+/******/ 						fulfilled = false;
+/******/ 						if(priority < notFulfilled) notFulfilled = priority;
+/******/ 					}
+/******/ 				}
+/******/ 				if(fulfilled) {
+/******/ 					deferred.splice(i--, 1)
+/******/ 					var r = fn();
+/******/ 					if (r !== undefined) result = r;
+/******/ 				}
+/******/ 			}
+/******/ 			return result;
+/******/ 		};
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	(() => {
 /******/ 		// define getter functions for harmony exports
@@ -41,34 +223,12 @@
 /******/ 		};
 /******/ 	})();
 /******/ 	
-/******/ 	/* webpack/runtime/ensure chunk */
-/******/ 	(() => {
-/******/ 		__webpack_require__.f = {};
-/******/ 		// This file contains only the entry chunk.
-/******/ 		// The chunk loading function for additional chunks
-/******/ 		__webpack_require__.e = (chunkId) => {
-/******/ 			return Promise.all(Object.keys(__webpack_require__.f).reduce((promises, key) => {
-/******/ 				__webpack_require__.f[key](chunkId, promises);
-/******/ 				return promises;
-/******/ 			}, []));
-/******/ 		};
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/get css chunk filename */
 /******/ 	(() => {
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.k = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "" + chunkId + ".css";
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/get javascript chunk filename */
-/******/ 	(() => {
-/******/ 		// This function allow to reference async chunks
-/******/ 		__webpack_require__.u = (chunkId) => {
-/******/ 			// return url for filenames based on template
-/******/ 			return "" + chunkId + ".js";
+/******/ 			return undefined;
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -87,51 +247,6 @@
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/load script */
-/******/ 	(() => {
-/******/ 		var inProgress = {};
-/******/ 		var dataWebpackPrefix = "rspack-repro:";
-/******/ 		// loadScript function to load a script via script tag
-/******/ 		__webpack_require__.l = (url, done, key, chunkId) => {
-/******/ 			if(inProgress[url]) { inProgress[url].push(done); return; }
-/******/ 			var script, needAttach;
-/******/ 			if(key !== undefined) {
-/******/ 				var scripts = document.getElementsByTagName("script");
-/******/ 				for(var i = 0; i < scripts.length; i++) {
-/******/ 					var s = scripts[i];
-/******/ 					if(s.getAttribute("src") == url || s.getAttribute("data-webpack") == dataWebpackPrefix + key) { script = s; break; }
-/******/ 				}
-/******/ 			}
-/******/ 			if(!script) {
-/******/ 				needAttach = true;
-/******/ 				script = document.createElement('script');
-/******/ 		
-/******/ 				script.charset = 'utf-8';
-/******/ 				script.timeout = 120;
-/******/ 				if (__webpack_require__.nc) {
-/******/ 					script.setAttribute("nonce", __webpack_require__.nc);
-/******/ 				}
-/******/ 				script.setAttribute("data-webpack", dataWebpackPrefix + key);
-/******/ 				script.src = url;
-/******/ 			}
-/******/ 			inProgress[url] = [done];
-/******/ 			var onScriptComplete = (prev, event) => {
-/******/ 				// avoid mem leaks in IE.
-/******/ 				script.onerror = script.onload = null;
-/******/ 				clearTimeout(timeout);
-/******/ 				var doneFns = inProgress[url];
-/******/ 				delete inProgress[url];
-/******/ 				script.parentNode && script.parentNode.removeChild(script);
-/******/ 				doneFns && doneFns.forEach((fn) => (fn(event)));
-/******/ 				if(prev) return prev(event);
-/******/ 			}
-/******/ 			var timeout = setTimeout(onScriptComplete.bind(null, undefined, { type: 'timeout', target: script }), 120000);
-/******/ 			script.onerror = onScriptComplete.bind(null, script.onerror);
-/******/ 			script.onload = onScriptComplete.bind(null, script.onload);
-/******/ 			needAttach && document.head.appendChild(script);
-/******/ 		};
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/make namespace object */
@@ -155,7 +270,10 @@
 /******/ 				scriptUrl = document.currentScript.src;
 /******/ 			if (!scriptUrl) {
 /******/ 				var scripts = document.getElementsByTagName("script");
-/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 				if(scripts.length) {
+/******/ 					var i = scripts.length - 1;
+/******/ 					while (i > -1 && !scriptUrl) scriptUrl = scripts[i--].src;
+/******/ 				}
 /******/ 			}
 /******/ 		}
 /******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
@@ -170,13 +288,24 @@
 /******/ 		// object to store loaded and loading chunks
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
-/******/ 		var installedChunks = {"main":0};
+/******/ 		var installedChunks = {"lib-vant":0,"vendors-node_modules_pnpm_vue-loader_17_4_2_vue_3_4_3_webpack_5_89_0_node_modules_vue-loader_-b42cc4":0};
 /******/ 		
 /******/ 		var uniqueName = "rspack-repro";
 /******/ 		var loadCssChunkData = (target, link, chunkId) => {
-/******/ 			var data, token = "", token2, exports = {}, exportsWithId = [], exportsWithDashes = [], i = 0, cc = 1;
-/******/ 			try { if(!link) link = loadStylesheet(chunkId); data = link.sheet.cssRules; data = data[data.length - 1].style; } catch(e) { data = getComputedStyle(document.head); }
-/******/ 			data = data.getPropertyValue("--webpack-" + uniqueName + "-" + chunkId);
+/******/ 			var data, token = "", token2, exports = {}, exportsWithId = [], exportsWithDashes = [], name = "--webpack-" + uniqueName + "-" + chunkId, i = 0, cc = 1;
+/******/ 			try {
+/******/ 				if(!link) link = loadStylesheet(chunkId);
+/******/ 				var cssRules = link.sheet.cssRules || link.sheet.rules;
+/******/ 				var j = cssRules.length - 1;
+/******/ 				while(j > -1 && !data) {
+/******/ 					var style = cssRules[j--].style;
+/******/ 					if(!style) continue;
+/******/ 					data = style.getPropertyValue(name);
+/******/ 				}
+/******/ 			}catch(e){}
+/******/ 			if(!data) {
+/******/ 				data = getComputedStyle(document.head).getPropertyValue(name);
+/******/ 			}
 /******/ 			if(!data) return [];
 /******/ 			for(; cc; i++) {
 /******/ 				cc = data.charCodeAt(i);
@@ -228,51 +357,9 @@
 /******/ 			needAttach && document.head.appendChild(link);
 /******/ 			return link;
 /******/ 		};
-/******/ 		// no initial css
+/******/ 		loadCssChunkData(__webpack_require__.m, 0, "main");
 /******/ 		
-/******/ 		__webpack_require__.f.css = (chunkId, promises) => {
-/******/ 			// css chunk loading
-/******/ 			var installedChunkData = __webpack_require__.o(installedChunks, chunkId) ? installedChunks[chunkId] : undefined;
-/******/ 			if(installedChunkData !== 0) { // 0 means "already installed".
-/******/ 		
-/******/ 				// a Promise means "currently loading".
-/******/ 				if(installedChunkData) {
-/******/ 					promises.push(installedChunkData[2]);
-/******/ 				} else {
-/******/ 					if("src_render_js" == chunkId) {
-/******/ 						// setup Promise in chunk cache
-/******/ 						var promise = new Promise((resolve, reject) => (installedChunkData = installedChunks[chunkId] = [resolve, reject]));
-/******/ 						promises.push(installedChunkData[2] = promise);
-/******/ 		
-/******/ 						// start chunk loading
-/******/ 						var url = __webpack_require__.p + __webpack_require__.k(chunkId);
-/******/ 						// create error before stack unwound to get useful stacktrace later
-/******/ 						var error = new Error();
-/******/ 						var loadingEnded = (event) => {
-/******/ 							if(__webpack_require__.o(installedChunks, chunkId)) {
-/******/ 								installedChunkData = installedChunks[chunkId];
-/******/ 								if(installedChunkData !== 0) installedChunks[chunkId] = undefined;
-/******/ 								if(installedChunkData) {
-/******/ 									if(event.type !== "load") {
-/******/ 										var errorType = event && event.type;
-/******/ 										var realSrc = event && event.target && event.target.src;
-/******/ 										error.message = 'Loading css chunk ' + chunkId + ' failed.\n(' + errorType + ': ' + realSrc + ')';
-/******/ 										error.name = 'ChunkLoadError';
-/******/ 										error.type = errorType;
-/******/ 										error.request = realSrc;
-/******/ 										installedChunkData[1](error);
-/******/ 									} else {
-/******/ 										loadCssChunkData(__webpack_require__.m, link, chunkId);
-/******/ 										installedChunkData[0]();
-/******/ 									}
-/******/ 								}
-/******/ 							}
-/******/ 						};
-/******/ 						var link = loadStylesheet(chunkId, url, loadingEnded);
-/******/ 					} else installedChunks[chunkId] = 0;
-/******/ 				}
-/******/ 			}
-/******/ 		};
+/******/ 		// no chunk loading
 /******/ 		
 /******/ 		// no hmr
 /******/ 	})();
@@ -288,44 +375,7 @@
 /******/ 			"main": 0
 /******/ 		};
 /******/ 		
-/******/ 		__webpack_require__.f.j = (chunkId, promises) => {
-/******/ 				// JSONP chunk loading for javascript
-/******/ 				var installedChunkData = __webpack_require__.o(installedChunks, chunkId) ? installedChunks[chunkId] : undefined;
-/******/ 				if(installedChunkData !== 0) { // 0 means "already installed".
-/******/ 		
-/******/ 					// a Promise means "currently loading".
-/******/ 					if(installedChunkData) {
-/******/ 						promises.push(installedChunkData[2]);
-/******/ 					} else {
-/******/ 						if(true) { // all chunks have JS
-/******/ 							// setup Promise in chunk cache
-/******/ 							var promise = new Promise((resolve, reject) => (installedChunkData = installedChunks[chunkId] = [resolve, reject]));
-/******/ 							promises.push(installedChunkData[2] = promise);
-/******/ 		
-/******/ 							// start chunk loading
-/******/ 							var url = __webpack_require__.p + __webpack_require__.u(chunkId);
-/******/ 							// create error before stack unwound to get useful stacktrace later
-/******/ 							var error = new Error();
-/******/ 							var loadingEnded = (event) => {
-/******/ 								if(__webpack_require__.o(installedChunks, chunkId)) {
-/******/ 									installedChunkData = installedChunks[chunkId];
-/******/ 									if(installedChunkData !== 0) installedChunks[chunkId] = undefined;
-/******/ 									if(installedChunkData) {
-/******/ 										var errorType = event && (event.type === 'load' ? 'missing' : event.type);
-/******/ 										var realSrc = event && event.target && event.target.src;
-/******/ 										error.message = 'Loading chunk ' + chunkId + ' failed.\n(' + errorType + ': ' + realSrc + ')';
-/******/ 										error.name = 'ChunkLoadError';
-/******/ 										error.type = errorType;
-/******/ 										error.request = realSrc;
-/******/ 										installedChunkData[1](error);
-/******/ 									}
-/******/ 								}
-/******/ 							};
-/******/ 							__webpack_require__.l(url, loadingEnded, "chunk-" + chunkId, chunkId);
-/******/ 						} else installedChunks[chunkId] = 0;
-/******/ 					}
-/******/ 				}
-/******/ 		};
+/******/ 		// no chunk on demand loading
 /******/ 		
 /******/ 		// no prefetching
 /******/ 		
@@ -335,7 +385,7 @@
 /******/ 		
 /******/ 		// no HMR manifest
 /******/ 		
-/******/ 		// no on chunks loaded
+/******/ 		__webpack_require__.O.j = (chunkId) => (installedChunks[chunkId] === 0);
 /******/ 		
 /******/ 		// install a JSONP callback for chunk loading
 /******/ 		var webpackJsonpCallback = (parentChunkLoadingFunction, data) => {
@@ -359,7 +409,7 @@
 /******/ 				}
 /******/ 				installedChunks[chunkId] = 0;
 /******/ 			}
-/******/ 		
+/******/ 			return __webpack_require__.O(result);
 /******/ 		}
 /******/ 		
 /******/ 		var chunkLoadingGlobal = self["webpackChunkrspack_repro"] = self["webpackChunkrspack_repro"] || [];
@@ -368,13 +418,12 @@
 /******/ 	})();
 /******/ 	
 /************************************************************************/
-var __webpack_exports__ = {};
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-__webpack_require__.e(/*! import() */ "src_render_js").then(__webpack_require__.bind(__webpack_require__, /*! ./render */ "./src/render.js")).then(exports => {
-    exports.render()
-})
-
+/******/ 	
+/******/ 	// startup
+/******/ 	// Load entry module and return exports
+/******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["lib-vant","vendors-node_modules_pnpm_vue-loader_17_4_2_vue_3_4_3_webpack_5_89_0_node_modules_vue-loader_-b42cc4"], () => (__webpack_require__("./src/main.js")))
+/******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
+/******/ 	
 /******/ })()
 ;

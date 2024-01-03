@@ -1,0 +1,95 @@
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.card {
+  padding: 2em;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+
+.content[data-v-7ba5bd90] {
+  display: flex;
+  min-height: 100vh;
+  line-height: 1.1;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.content h1[data-v-7ba5bd90] {
+  font-size: 3.6rem;
+  font-weight: 700;
+}
+.content p[data-v-7ba5bd90] {
+  font-size: 1.2rem;
+  font-weight: 400;
+  opacity: 0.5;
+}
+
+
+head{--webpack-rspack-repro-main:\.\/src\/style\.css,\.\/src\/App\.vue\.css\?vue\&type\=style\&index\=0\&id\=7ba5bd90\&scoped\=true\&lang\=css\!\=\!\.\/node_modules\/\.pnpm\/vue-loader\@17\.4\.2_vue\@3\.4\.3\+webpack\@5\.89\.0\/node_modules\/vue-loader\/dist\/stylePostLoader\.js\!\.\/node_modules\/\.pnpm\/vue-loader\@17\.4\.2_vue\@3\.4\.3\+webpack\@5\.89\.0\/node_modules\/vue-loader\/dist\/index\.js\?\?ruleSet\[0\]\!\.\/src\/App\.vue\?vue\&type\=style\&index\=0\&id\=7ba5bd90\&scoped\=true\&lang\=css,\.\/src\/App\.vue\.css\?vue\&type\=style\&index\=0\&id\=7ba5bd90\&scoped\=true\&lang\=css\!\=\!\.\/node_modules\/\.pnpm\/vue-loader\@17\.4\.2_vue\@3\.4\.3\+webpack\@5\.89\.0\/node_modules\/vue-loader\/dist\/index\.js\?\?ruleSet\[0\]\!\.\/src\/App\.vue\?vue\&type\=style\&index\=0\&id\=7ba5bd90\&scoped\=true\&lang\=css;}
